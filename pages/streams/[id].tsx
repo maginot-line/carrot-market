@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 
-const Stream: NextPage = () => {
+const StreamDetail: NextPage = () => {
   return (
     <div className="space-y-4 py-10  px-4">
       <div className="aspect-video w-full rounded-md bg-slate-300 shadow-sm" />
@@ -124,4 +124,4 @@ const Stream: NextPage = () => {
   );
 };
 
-export default Stream;
+export default StreamDetail;
